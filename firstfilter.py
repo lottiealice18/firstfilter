@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import datetime
 
-# Function to process the uploaded file
+#Function to process the uploaded file
 def process_file(file):
     # Load the Excel file into a DataFrame
     df = pd.read_excel(file)
